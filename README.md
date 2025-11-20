@@ -1,6 +1,6 @@
 # Geometry-Aware Style Transfer in 3D Gaussian Splatting
 
-<img src="./assets/teaser.jpg" alt="[Teaser Figure]" style="zoom:80%;" />
+<img src="./assets/teaser.jpeg" alt="[Teaser Figure]" style="zoom:80%;" />
 </div>
 
 we present a novel geometry-aware style transfer framework for 3D Gaussian splatting (3DGS) that simultaneously transfers appearance attributes and geometric structures. Unlike prior works that primarily focus on color-based stylization and often overlook structural adaptation, our method explicitly incorporates geometry adaptation through a decoupled optimization scheme that alternately updates color and geometry parameters. This strategy alleviates potential interference between color and geometry updates, leading to stable and consistent scene-level geometry transformation. The decoupled optimization is enabled by the proposed geometry-aware contrastive feature matching (GCFM). GCFM integrates RGB, depth, and edge cues into a contrastive objective and is employed in both optimization phases to effectively transfer structural characteristics from style images to Gaussian primitives. Extensive experiments show that our approach achieves superior performance in both qualitative fidelity and quantitative metrics, significantly outperforming existing 3DGS-based stylization methods.
