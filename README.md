@@ -23,7 +23,7 @@ mv depth_anything_v2_vitl.pth checkpoints/
 ```
 
 ### Data Preparation
-We evaluate the dataset on [LLFF](https://bmild.github.io/llff/), [Tanks and Temples](https://www.tanksandtemples.org/) and [MipNeRF-360](https://jonbarron.info/mipnerf360/) datasets. For convenience, a small subset of preprocessed scene data and reference style images is provided [here](https://drive.google.com/file/d/1U7MTzKAFNY0XbJ4tnr8BwsFHKbedOOyw/view?usp=sharing).
+We evaluate the dataset on [LLFF](https://bmild.github.io/llff/), [Tanks and Temples](https://www.tanksandtemples.org/) and [MipNeRF-360](https://jonbarron.info/mipnerf360/) datasets. For convenience, a small subset of preprocessed scene data and reference style images is provided `./style` folder.
 
 To use custom data, please follow the instructions in [3DGS](https://github.com/graphdeco-inria/gaussian-splatting/blob/54c035f7834b564019656c3e3fcc3646292f727d/README.md#processing-your-own-scenes) to process your own scenes.
 
@@ -36,17 +36,30 @@ datasets
 |   |---...
 |---tandt
 |---mipnerf360
-|---styles
-|   |---0.jpg
-|   |---1.jpg
-|   |---...
 ```
+
+## 3DGS Reconstruction (Generating Point Clouds)
+
+Our stylization pipeline assumes that each scene has already been reconstructed as a 3D Gaussian Splatting (3DGS) model and contains a pre-trained point cloud. In this repository, we provide an original 3DGS reconstruction script:
+
+- `original_train.py`: reconstructs a 3DGS scene and saves the Gaussian point cloud.  
+  For details on the training procedure, please refer to the original 3DGS repo:  
+  [3DGS – Running](https://github.com/graphdeco-inria/gaussian-splatting/blob/54c035f7834b564019656c3e3fcc3646292f727d/README.md#Running)
+
+
+### 1. Prepare COLMAP-processed input
+
+First, preprocess your scenes following the official 3DGS pipeline:
+
+- Camera poses and images should be prepared as in the original 3DGS repository.  
+- Please refer to the official instructions for processing your own scenes:  
+  [3DGS – Processing your own scenes](https://github.com/graphdeco-inria/gaussian-splatting/blob/54c035f7834b564019656c3e3fcc3646292f727d/README.md#processing-your-own-scenes)
 
 ## Quick Start
 This repository provides a batch pipeline for stylizing multiple 3D Gaussian Splatting (3DGS) scenes with various reference styles.  
 The included shell script automatically performs:
 
-1. 3DGS training + stylization  
+1. 3DGS geometry-aware stylization  
 2. Depth video rendering  
 3. Final RGB video rendering
 
