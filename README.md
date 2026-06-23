@@ -3,8 +3,8 @@
 <p align="center">
   <a href="https://oweixx.github.io/">Min Hyeok Bang</a><sup>*1</sup>,
   <a href="https://kjun627.github.io/">Jun Hyeong Kim</a><sup>*1</sup>,
-  <a href="https://gymlab.github.io/">Seung-Wook Kim</a><sup>†2</sup>,
-  <a href="https://jbnu-vilab.github.io/people/">Se-Ho Lee</a><sup>†1</sup>
+  <a href="https://pknu-vlab.github.io/">Seung-Wook Kim</a><sup>†2</sup>,
+  <a href="https://jbnu-vilab.github.io/">Se-Ho Lee</a><sup>†1</sup>
 </p>
 
 <p align="center">
