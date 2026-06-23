@@ -165,7 +165,7 @@ This will process:
 - `trex` with `starry`
 - `trex` with `mosaic`
 
-## Citation
+<!-- ## Citation
 
 If you find this project useful, please cite:
 
@@ -176,4 +176,4 @@ If you find this project useful, please cite:
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
     year      = {2026}
 }
-```
+``` -->
