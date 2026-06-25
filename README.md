@@ -1,4 +1,7 @@
-<h1 align="center">Geometry-Aware Style Transfer in 3D Gaussian Splatting</h1>
+<h1 align="center">
+  
+  *Geometry-Aware Style Transfer in 3D Gaussian Splatting*
+  </h1>
 
 <p align="center">
   <a href="https://oweixx.github.io/">Min Hyeok Bang</a><sup>*1</sup>,
@@ -23,14 +26,12 @@ University, Busan, South Korea
   <strong>ECCV 2026</strong>
 </p>
 
-<!-- <p align="center">
-  <a href="https://arxiv.org/abs/2601.07603">
-    <img src="https://img.shields.io/badge/arXiv-2601.07603-b31b1b.svg" alt="arXiv">
-  </a>
-  <a href="https://zijian-wu.github.io/uika-page/">
-    <img src="https://img.shields.io/badge/Project-Homepage-blue.svg" alt="Project Page">
-  </a>
-</p> -->
+<div align="center">
+
+[![Tech Report](https://img.shields.io/badge/arXiv-2606.24144-b31b1b.svg)](https://arxiv.org/abs/2606.24144)
+[![Page](https://img.shields.io/badge/Project-Homepage-blue.svg)](https://github.com/oweixx/gast)
+
+</div>
 
 <div align=center>
   <img src="./assets/teaser.jpg">
@@ -165,15 +166,16 @@ This will process:
 - `trex` with `starry`
 - `trex` with `mosaic`
 
-<!-- ## Citation
+## Citation
 
 If you find this project useful, please cite:
 
 ```bibtex
-@inproceedings{wu2026uika,
-    title     = {UIKA: Fast Universal Head Avatar from Pose-Free Images},
-    author    = {Wu, Zijian and Zhou, Boyao and Hu, Liangxiao and Liu, Hongyu and Sun, Yuan and Wang, Xuan and Cao, Xun and Shen, Yujun and Zhu, Hao},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-    year      = {2026}
+@inproceedings{bang2026gast,
+  title = {Geometry-aware style transfer in 3D gaussian splatting},
+  author = {Bang, Min Hyeok and Kim, Jun Hyeong and Kim, Seung-Wook and Lee, Se-Ho},  
+  booktitle = {Proc. European Conference on Computer Vision (ECCV)},
+  address = {Malmö, Sweden},
+  year = {2026}
 }
-``` -->
+```
