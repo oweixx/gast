@@ -29,15 +29,21 @@ University, Busan, South Korea
 <div align="center">
 
 [![Tech Report](https://img.shields.io/badge/arXiv-2606.24144-b31b1b.svg)](https://arxiv.org/abs/2606.24144)
-[![Page](https://img.shields.io/badge/Project-Homepage-blue.svg)](https://github.com/oweixx/gast)
+[![Page](https://img.shields.io/badge/Project-Homepage-blue.svg)](https://kjun627.github.io/gast-web/)
 
 </div>
+
+This repo contains the official code of our paper: [Geometry-Aware Style Transfer in 3D Gaussian Splatting](https://arxiv.org/abs/2606.24144).
 
 <div align=center>
   <img src="./assets/teaser.jpg">
 </div>
 
-<!-- > We present Geometry-Aware Style Transfer in 3D Gaussian Splatting -->
+> In this paper, we present a novel geometry-aware style transfer framework for 3D Gaussian splatting (3DGS) that simultaneously
+transfers appearance attributes and geometric structures. Unlike prior
+works that primarily focus on color-based stylization and often overlook structural adaptation, our method explicitly incorporates geometry
+adaptation through a decoupled optimization scheme that alternately
+updates color and geometry parameters.
 
 ## Setup
 
